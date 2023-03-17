@@ -31,8 +31,8 @@ func GetProvider(name string) (IProvider, error) {
 		p := &KucoinProvider{}
 		p.SetParams()
 		return p, nil
-    //case "someProvider":
-	//    p := &SomeProvider{}
+    // case "someProvider": 
+    //    p := &SomeProvider{}
     //    p.SetParams()
     //    return p, nil
 	default:
